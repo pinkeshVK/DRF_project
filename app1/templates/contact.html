@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}  <! -- if you put this line down in body it will fetch the tittle of this page not from base.html  -->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% block my_block %}
+
+<h1>contact page</h1>
+
+<ol>
+    <li>{{object2.title}}</li>
+    <li>{{object2.name}}</li>
+    <li>{{object2.date}}</li>
+</ol>
+{% endblock my_block %}
+
+</body>
+</html>
