@@ -42,6 +42,17 @@ INSTALLED_APPS = [
     'app1', # for djano
     'app2', # for Django rest framework
     'rest_framework',
+    'appCRUD',
+    'class_based_view_crud',
+    'app_model_serializer',
+    'app_generics',
+    'app_group_generics',
+    'concrete_api_view',
+    'app_viewset',
+    'app_model_viewset',
+    'app_authentication',
+    'rest_framework.authtoken',   #for auth token
+
 ]
 
 MIDDLEWARE = [
